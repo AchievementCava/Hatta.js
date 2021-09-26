@@ -1,18 +1,27 @@
 {
-  "name": "hatta.js",
-  "version": "0.0.1",
-  "description": "A discord bot based on Hatta for Python",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Achievement Cava",
-  "license": "ISC",
   "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
     "discord.js": "^13.1.0",
     "dotenv": "^10.0.0"
   },
-  "devDependencies": {
-    "eslint": "^7.32.0"
-  }
+  "name": "hatta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AchievementCava/Hatta.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AchievementCava/Hatta.js/issues"
+  },
+  "homepage": "https://github.com/AchievementCava/Hatta.js#readme",
+  "description": ""
 }
